@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NeuralReaderProject ProjectType="Approximation">
+    <Columns>
+        <ColumnsNumber>2</ColumnsNumber>
+        <Column Index="1">
+            <ColumnName size="1">date</ColumnName>
+            <ColumnType>Date</ColumnType>
+            <Item>
+                <Name size="1">date</Name>
+                <Value>date</Value>
+            </Item>
+        </Column>
+        <Column Index="2">
+            <ColumnName size="1">price</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+    </Columns>
+    <InstancesNumber>1249</InstancesNumber>
+    <MissingValues>
+        <MissingValuesNumber>0</MissingValuesNumber>
+    </MissingValues>
+    <PreviewData>
+        <PreviewSize>4</PreviewSize>
+        <Item Index="1" Size="2">
+            <Value>date</Value>
+            <Value>price</Value>
+        </Item>
+        <Item Index="2" Size="2">
+            <Value>2013-09-09</Value>
+            <Value>21250.0</Value>
+        </Item>
+        <Item Index="3" Size="2">
+            <Value>2013-09-10</Value>
+            <Value>21050.0</Value>
+        </Item>
+        <Item Index="4" Size="2">
+            <Value>2017-11-22</Value>
+            <Value>19900.0</Value>
+        </Item>
+    </PreviewData>
+</NeuralReaderProject>
